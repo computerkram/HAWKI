@@ -130,5 +130,7 @@
     "PH_ChooseDescription": "Beschreibung eingeben",
     "PH_SystemPrompt": "Gebe deine bevorzugte Systemprompt ein",
     "PH_SearchBar": "Name, Benutzername oder E-Mail eingeben",
-    "Api_Warning": "Um die Sprachmodelle von HAWKI auch in anderen Anwendungen nutzen zu können, kann ein eigener API-Schlüssel generiert werden. Schreibe dazu eine E-Mail an deine IT, die den API-Key für dich generieren und dir zusenden wird."
-}
+    "Api_Warning": "Um die Sprachmodelle von HAWKI auch in anderen Anwendungen nutzen zu können, kann ein eigener API-Schlüssel generiert werden. Schreibe dazu eine E-Mail an deine IT, die den API-Key für dich generieren und dir zusenden wird.",
+    "AI_Guidlines_PHFR": "KI Leitfaden der PH Freiburg (PDF)",
+    "Declaration_of_Authorship_PHFR": "Eigenständigkeitserklärung der PH Freiburg (PDF)"
+    }

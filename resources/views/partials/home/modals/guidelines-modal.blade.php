@@ -3,7 +3,22 @@
         <div class="modal-content-wrapper">
             <div class="modal-content">
                 <h1>{!! $translation["Guidelines"]; !!}</h1>
-                {!! $translation["_Guidelines_Content"]; !!}
+                 <div>
+                    <p>
+                        <a href="https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Hilfestellung_KI_wissenschaftliches_Arbeiten_endg.pdf" target="_blank" class="accentText">
+                         {{ $translation["AI_Guidlines_PHFR"] }}
+                        </a>
+                     </p>
+                 </div>
+                 <div>
+                     <p>
+                        <a href="https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Eigenstaendigkeitserklaerung_2024_endg_1.pdf" target="_blank" class="accentText">
+                         {{ $translation["Declaration_of_Authorship_PHFR"] }}
+                        </a>
+                     </p>
+                </div>
+
+		{!! $translation["_Guidelines_Content"]; !!}
                 <br>
                 
                 <div class="modal-buttons-bar">

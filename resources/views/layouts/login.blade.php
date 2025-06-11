@@ -40,7 +40,10 @@
                 <x-icon name="settings-icon"/>
             </button>
             <div class="impressumPanel">
-                <a href="/dataprotection" target="_blank">{{ $translation["DataProtection"] }}</a>
+	    	<a href="https://www.ph-freiburg.de/datenschutz.html" target="_blank" rel="noopener noreferrer">
+    			{{ $translation["DataProtection"] }}
+		</a>
+                <!--<a href="/dataprotection" target="_blank">{{ $translation["DataProtection"] }}</a>-->
                 <a href="{{ env("IMPRINT_LOCATION") }}" target="_blank">{{ $translation["Impressum"] }}</a>
             </div>
         </div>
