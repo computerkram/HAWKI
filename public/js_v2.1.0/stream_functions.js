@@ -311,13 +311,12 @@ async function requestChatlogSummery(msgs = null) {
             }
         }
     ];
-
     const requestObject = {
         broadcast: false,
         threadIndex: '',
         slug: '',
         payload:{
-            model: systemModels.summarizer,
+            model: 'gpt-4o-mini',
             stream: false,
             messages: messages
         }
@@ -327,7 +326,8 @@ async function requestChatlogSummery(msgs = null) {
         return new Promise((resolve, reject) => {
             const onData = (data, done) => {
                 if (done) {
-                    resolve(deconstContent(JSON.parse(data.content).text).messageText);
+                    //resolve(deconstContent(data.content).messageText);
+                    resolve(deconstContent(data.content).messageText.text);
                 }
             };
             processResponse(response, onData);
