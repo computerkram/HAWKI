@@ -7,7 +7,6 @@
                 <div id="policy-content"></div>
 
 
-                <h1>{!! $translation["Guidelines"]; !!}</h1>
                  <div>
                     <p>
                         <a href="https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Hilfestellung_KI_wissenschaftliches_Arbeiten_endg.pdf" target="_blank" class="accentText">
@@ -22,11 +21,7 @@
                         </a>
                      </p>
                 </div>
-
-		{!! $translation["_Guidelines_Content"]; !!}
-                <br>
-                
-
+		<br>
                 <div class="modal-buttons-bar">
                     <button id="declineBtn" class="btn-lg-stroke align-end">{{ $translation["Cancel"] }}</button>
                     <button id="confirmBtn" class="btn-lg-fill align-end" onclick="modalClick(this)" >{{ $translation["Confirm"] }}</button>

@@ -26,6 +26,27 @@
                             </g>
                         </svg>
                     </h3>
+			<h3 id="swtichContent-btn" class="">
+			    <div onclick="window.open('https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Hilfestellung_KI_wissenschaftliches_Arbeiten_endg.pdf','_blank')">
+				{{ $translation["AI_Guidlines_PHFR"] }}
+			    </div>
+			    <svg viewBox="0 0 25 25">
+				<g class="button-path-stroke-color" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				    <path d="M 12 16 l 4 -4 l -4 -4 M 8 12 H 16"/>
+				</g>
+			    </svg>
+			</h3>
+
+			<h3 id="swtichContent-btn" class="">
+			    <div onclick="window.open('https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Eigenstaendigkeitserklaerung_2024_endg_1.pdf','_blank')">
+				{{ $translation["Declaration_of_Authorship_PHFR"] }}
+			    </div>
+			    <svg viewBox="0 0 25 25">
+				<g class="button-path-stroke-color" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				    <path d="M 12 16 l 4 -4 l -4 -4 M 8 12 H 16"/>
+				</g>
+			    </svg>
+			</h3>
 
                     @if(count($langs) != 1)
                         <div class="settings-section">
@@ -90,25 +111,7 @@
 
                     <div id="policy-content" class="content-text-container"></div>
 
-                    <h1>{{ $translation["Guidelines"] }}</h1>
                 </div>
-		<div>
-                    <p>
-                        <a href="https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Hilfestellung_KI_wissenschaftliches_Arbeiten_endg.pdf" target="_blank" class="accentText">
-                         {{ $translation["AI_Guidlines_PHFR"] }}
-                        </a>
-                     </p>
-                 </div>
-                 <div>
-                     <p>
-                        <a href="https://www.ph-freiburg.de/fileadmin/shares/Studium/Studienorganisation/Pruefungen/Doks_Abschlussarbeit/Allgemein/Eigenstaendigkeitserklaerung_2024_endg_1.pdf" target="_blank" class="accentText">
-                         {{ $translation["Declaration_of_Authorship_PHFR"] }}
-                        </a>
-                     </p>
-                </div>
-                <div class="content-text-container">
-                    {!! $translation["_Guidelines_Content"] !!}<br><br><br>
-		</div>
 
             </div>
 

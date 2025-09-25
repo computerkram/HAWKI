@@ -58,8 +58,8 @@
   min-width: 27em;
   max-width: 90vw;
   width: 35em;
-  min-height: 40vh;
-  height: 28em;
+  min-height: 42vh;
+  height: 40em;
   background-color: var(--panel-secondary);
   border-radius: 1.5rem;
   box-shadow: 1px 1px 5px rgba(0.1, 0.1, 0.1, 0.2);
