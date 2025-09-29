@@ -316,7 +316,7 @@ async function requestChatlogSummery(msgs = null) {
         threadIndex: '',
         slug: '',
         payload:{
-            model: 'gpt-4o-mini',
+            model: systemModels.summarizer,
             stream: false,
             messages: messages
         }
@@ -326,8 +326,8 @@ async function requestChatlogSummery(msgs = null) {
         return new Promise((resolve, reject) => {
             const onData = (data, done) => {
                 if (done) {
-                    //resolve(deconstContent(data.content).messageText);
-                    resolve(deconstContent(data.content).messageText.text);
+                    resolve(deconstContent(data.content).messageText);
+                    //resolve(deconstContent(data.content).messageText.text);
                 }
             };
             processResponse(response, onData);
@@ -345,7 +345,14 @@ function convertMsgObjToLog(messages){
     for(let i = 0; i < messages.length; i++){
         msg = messages[i];
         const role = msg.message_role === 'assistant' ? 'assistant' : 'user';
-        const msgTxt = msg.content.text;
+        //const msgTxt = msg.content.text;
+	const msgTxt = (
+            msg?.content?.text ??
+            msg?.content ??
+            msg?.message ??
+            ''
+        ).toString();
+
         const filteredText = detectMentioning(msgTxt).filteredText;
         const messageObject = {
             role: role,
