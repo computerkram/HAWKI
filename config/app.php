@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'HAWKI'),
+    'version' => "2.1.0",
 
     /*
     |--------------------------------------------------------------------------
@@ -124,16 +125,6 @@ return [
     ],
 
 
-    /*
-    |--------------------------------------------------------------------------
-    | AI Mention Handle
-    |--------------------------------------------------------------------------
-    |
-    | The handle which allows users to mention AI in groupchats.
-    |
-    |
-    */
-    'aiHandle' => '@'. env('AI_MENTION_HANDLE', 'hawki'),
 
 
 

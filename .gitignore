@@ -20,5 +20,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-config/model_providers.php
 docker-compose.override.yml
+.DS_Store
