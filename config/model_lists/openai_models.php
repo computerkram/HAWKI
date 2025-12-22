@@ -1,7 +1,7 @@
 <?php
 return [
     [
-        'active'=> env('MODELS_OPENAI_GPT5_ACTIVE', true),
+        'active'=> env('MODELS_OPENAI_GPT5_ACTIVE', false),
         'id' => 'gpt-5',
         'label' => 'OpenAI GPT 5',
         "input"=> [

@@ -26,9 +26,9 @@ These guidelines are intended to give all university members a clear framework f
 ### Accuracy:
 - Use of these services may result in inaccurate or faulty output.  
 - Always critically evaluate results and do not use them as the sole source of truth.  
-- Your inputs are not stored by HAWK but are retained by OpenAI for 30 days for potential misuse detection. They are deleted afterwards.  
+- Your inputs are not stored by PH Freiburg but are retained by OpenAI for 30 days for potential misuse detection. They are deleted afterwards.  
 - Your inputs are not used to improve the product.  
-- HAWK has a data processing agreement with GWDG, ensuring that GWDG does not store data sent via HAWKI.  
+- PH Freiburg has a data processing agreement with GWDG, ensuring that GWDG does not store data sent via HAWKI.  
 - A list of models provided by GWDG can be found here: [GWDG Models](https://docs.hpc.gwdg.de/services/chat-ai/models/index.html).  
 
 ---
@@ -91,7 +91,7 @@ These guidelines are intended as orientation for the responsible use of HAWKI.
 The university can only provide this service if no personal data is entered.  
 
 **Contact for questions:**  
-Prof. Stefan Wölwer, Arian Sadafi, Jonas Trippler, or Vincent Timm.  
+Christian Berger, christian.berger@ph-freiburg.de
 
 Regardless of these guidelines, the terms of OpenAI and Google apply.  
 

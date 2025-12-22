@@ -26,9 +26,9 @@ Dieser Leitfaden soll allen Hochschulangehörigen und Hochschulmitgliedern eine 
 ### Genauigkeit:
 - Die Nutzung der Dienste kann zu ungenauem oder fehlerhaftem Output führen.  
 - Es ist wichtig, dass Sie den Output kritisch prüfen und nicht als alleinige Quelle der Wahrheit verwenden.  
-- Ihre Eingaben werden nicht von der HAWK, aber von OpenAI für 30 Tage gespeichert, um einen eventuellen Missbrauch festzustellen. Nach 30 Tagen werden die Daten gelöscht.  
+- Ihre Eingaben werden nicht von der PH Freiburg, aber von OpenAI für 30 Tage gespeichert, um einen eventuellen Missbrauch festzustellen. Nach 30 Tagen werden die Daten gelöscht.  
 - Ihre Eingaben werden nicht verwendet, um das Produkt sicherer oder besser zu machen.  
-- Die HAWK hat einen Datenverarbeitungsvertrag mit der GWDG, in dem festgelegt ist, dass seitens der GWDG keine Daten gespeichert werden, die über HAWKI an die GWDG geschickt werden.  
+- Die PH Freiburg hat einen Datenverarbeitungsvertrag mit der GWDG, in dem festgelegt ist, dass seitens der GWDG keine Daten gespeichert werden, die über HAWKI an die GWDG geschickt werden.  
 - Eine Übersicht der von der GWDG zur Verfügung gestellten Modelle finden Sie unter: [GWDG Modelle](https://docs.hpc.gwdg.de/services/chat-ai/models/index.html)  
 
 ---
@@ -92,7 +92,7 @@ Dieser Leitfaden dient als Orientierungshilfe für den verantwortungsbewussten U
 Die Hochschule kann diesen Service nur anbieten, wenn Sie keine persönlichen Daten eingeben.  
 
 **Kontakt bei Fragen:**  
-Prof. Stefan Wölwer, Arian Sadafi, Jonas Trippler oder Vincent Timm.  
+Christian Berger, christian.berger@ph-freiburg.de 
 
 Ungeachtet dieses Leitfadens gelten die Nutzungsbedingungen von OpenAI und Google.  
 
